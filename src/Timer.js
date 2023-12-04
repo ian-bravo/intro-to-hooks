@@ -9,6 +9,7 @@ function Timer() {
 
     if (isActive) {
       interval = setInterval(() => {
+        // notice:
         setTimer(timerState => timerState + 1)
       }, 1000
     )}
